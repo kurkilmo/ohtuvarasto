@@ -5,6 +5,7 @@ from varasto import Varasto
 class TestVarasto(unittest.TestCase):
     def setUp(self):
         self.varasto = Varasto(10)
+        # :)
         self.neg_varasto = Varasto(-10, -10)
 
     def test_konstruktori_luo_tyhjan_varaston(self):
